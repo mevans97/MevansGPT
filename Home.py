@@ -22,9 +22,9 @@ text = st.text_input("Enter some text 👇") #This is the prompt for the user to
 
 Chat_History.append(text)
 
-response = chat_with_mevans(text) #This utilizes the chat_with_mevans function I created in mevans.py
+response2 = chat_with_mevans(text) #This utilizes the chat_with_mevans function I created in mevans.py
 
-Chat_History.append(response)
+Chat_History.append(response2)
 
 for i in Chat_History:
     if Chat_History.index(i) % 2 == 1:
